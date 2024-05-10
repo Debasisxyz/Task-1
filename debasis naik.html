@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Simple Landing Page</title>
+    <style type="text/css">
+        *{padding: 0; margin:0 box-sizing: border-box;}
+        header{
+            width: 100%;
+            height: 150vh;
+            background:url("debasis/OOP.jpeg");
+            background-size: cover;
+            font-family: sans-serif;
+        }
+        
+        
+        .nav{
+            width: 100%;
+            height: 50px;
+            background-color:white;
+            color: black;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .logo{
+            font-size: 2em;
+            letter-spacing: 2px;
+            font-style: oblique;
+            
+        }
+        .menu a{
+            text-decoration: none;
+            color: red;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 30px;
+            position: relative;
+        }
+        .menu a:before{
+            content: " ";
+            position: absolute;
+            top: 0%;
+            bottom: 0%;
+            width: 0%;
+            border-bottom: 2px solid blueviolet;
+            transition: 0.6s linear;
+        }
+        .menu a:hover::before{
+            width: 90%;
+        }
+        .register a:hover{
+            border: 1px solid blueviolet;
+        }
+        .h-txt{
+            max: width 650px;
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            color: blue;
+        }
+        .h-txt span{
+            letter-spacing: 5px;
+
+        }
+        .h-txt h1{
+            font: size 3px;
+             
+        }
+        .h-txt a{
+            text-decoration:hotpink;
+            background: indianred;
+            color: blue;
+            padding: 10px 20px;
+            letter-spacing: normal;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My website</h1>
+        
+    </header>
+    </div>
+    <div class="nav">
+    <div class="logo">
+        SEE THE WORLD
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Hill stations</a>
+            <a href="#">Our sites</a>
+            <a href="#">Contacts</a>
+            <a href="#">Best offer</a>
+        </div>
+        <div class="register">
+            <a href="#"> Register</a>
+            </div>
+             </nav>
+             <div class="search">
+                <input type="text" placeholder="Search">
+            </div>
+            <section class="h-txt">
+                <span>Enjoy Explore</span>
+                <h1>Let's Discover The World Together</h1>
+                <br>
+                <a href="#">Book your trip</a>
+                </section>
+            </header>
+            </body>
+
+
+            <h2>About Us</h2>
+            <p>"The Biggest Adventure You Can Ever Take Is To Live The Life Of Your Dreams."</p>
+            <p>"Once The Travel Bug Bites There Is No Known Antidote And YOU Known That You Shall Be Happilly Infected Untill The End Of Your Life"</p>
+            <a href="#contact">Contact Us</a>
+        
+    </div>
+    <footer>
+        <p>&copy; 2024. All rights reserved.</p>
+    </footer>
+</body>
+</html>
